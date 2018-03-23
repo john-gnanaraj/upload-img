@@ -1,0 +1,9 @@
+<p>
+  upload works!
+</p>
+
+<input type="file" #fileInput (change)="onFileSelected()">
+
+<button type="button" (click)="onUpload()">Upload</button>
+
+<div id="dataOutput">{{message}}</div>
